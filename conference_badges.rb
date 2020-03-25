@@ -16,9 +16,11 @@ end
 #assign_rooms should return a list of welcome messages and room assignments
 #assign_rooms should not hard-code the response
 def assign_rooms(attendees)
-  room_assignment
-
-return "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
+  room_assignment = []
+  attendees.each do |room|
+    room_assignment << "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
+  end
+return room_assignment
 end
 
 #printer should puts the list of badges and room_assignments
