@@ -12,7 +12,7 @@ def batch_badge_creator(attendees)
 attendees.each do |badge|
   badges << "Hello, my name is #{badge}."
   end
-return badge_message
+return badges
 end
 
 #assign_rooms should return a list of welcome messages and room assignments
