@@ -23,7 +23,7 @@ end
 
 #printer should puts the list of badges and room_assignments
 def printer(attendees)
-    
+
   puts batch_badge_creator(attendees)
   puts assign_rooms(attendees)
 end
