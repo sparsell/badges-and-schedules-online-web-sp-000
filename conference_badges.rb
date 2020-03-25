@@ -10,6 +10,7 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Linus", "Matz"]
 
 def batch_badge_creator(attendees)
 
+return 
 end
 
 #assign_rooms should return a list of welcome messages and room assignments
