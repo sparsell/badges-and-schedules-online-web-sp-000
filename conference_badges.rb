@@ -19,6 +19,6 @@ end
 
 #printer should puts the list of badges and room_assignments
 def printer(attendees)
-  
-  puts 
+
+  puts
 end
