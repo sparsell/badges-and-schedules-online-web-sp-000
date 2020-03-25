@@ -2,7 +2,7 @@
 #badge_maker should return a formatted badge
 def badge_maker(name)
 
-  return "Hello, my name is #{name}"
+  return "Hello, my name is #{name}."
 end
 
 #batch_badge_creator should return a list of badge messages
