@@ -11,6 +11,7 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Linus", "Matz"]
 def batch_badge_creator(attendees)
 attendees.each do |badges|
   newbadge == badge_maker(name).badges
+end
 return newbadge
 end
 
