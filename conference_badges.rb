@@ -13,8 +13,6 @@ attendees.each do |badge|
 return badges
 end
 
-#assign_rooms should return a list of welcome messages and room assignments
-#assign_rooms should not hard-code the response
 def assign_rooms(attendees)
   room_assignment = []
   attendees.each_with_index do |badge, index|
