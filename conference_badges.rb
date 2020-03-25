@@ -4,13 +4,19 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
+primary_colors = ["Red", "Yellow", "Blue"]
+primary_colors.each do |color|
+  puts "Primary Color #{color} is #{color.length} letters long."
+end
+
+
 #batch_badge_creator should return a list of badge messages
 #batch_badge_creator should not hard-code response
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(attendees)
-attendees.each do |badges|
-  badge_message == badge_maker(name).badges
+attendees.each do |badge|
+  badge_message == badge_maker(name).badge
   end
 return badge_message
 end
