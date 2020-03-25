@@ -17,7 +17,7 @@ end
 #assign_rooms should not hard-code the response
 def assign_rooms(attendees)
   room_assignment = []
-  attendees.each do |badge, index|
+  attendees.each_with_index do |badge, index|
     room_assignment << "Hello, #{badge}! You'll be assigned to room #{index}!"
   end
 return room_assignment
