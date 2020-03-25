@@ -9,8 +9,9 @@ end
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Linus", "Matz"]
 
 def batch_badge_creator(attendees)
-
-return 
+attendees.each do |badges|
+  newbadge == badge_maker(name)
+return newbadge
 end
 
 #assign_rooms should return a list of welcome messages and room assignments
